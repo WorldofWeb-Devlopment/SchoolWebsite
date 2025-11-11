@@ -2,53 +2,50 @@
   padding: 0;
   margin: 0;
 }
-body{
-
+body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
-.heading{
+.heading {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.logo{
+.logo {
   width: 150px;
-  }
-  .logo-name{
-   width: 500px;
-    }
+}
+.logo-name {
+  width: 500px;
+}
 
 .navbar {
   background-color: green;
   text-align: center;
   width: 100%;
+  position: sticky;
+  top: 0;
 }
 .navbar ul {
   display: flex;
- justify-content: center;
- align-items: center;
+  justify-content: center;
+  align-items: center;
   list-style: none;
 }
-.navbar ul li { 
-  padding: 10px 5px ;
+.navbar ul li {
+  padding: 10px 5px;
   margin: 20px;
-  
 }
 .navbar ul li a {
   text-decoration: none;
-  color: white; 
+  color: white;
   padding: 2px;
-  
-  
 }
 .navbar ul li:hover {
-   background-color: rgb(4, 70, 4); 
+  background-color: rgb(4, 70, 4);
   /* text-decoration: underline;
   color: white; */
-
 }
 .dropdown {
   display: none;
@@ -56,44 +53,42 @@ body{
 .navbar ul li:hover .dropdown {
   display: block;
   position: absolute;
-  background-color:rgb(3, 110, 3);
+  background-color: rgb(3, 110, 3);
   margin-top: 13px;
   margin-left: -13px;
 }
 .navbar ul li:hover .dropdown ul {
   display: block;
-  
-} 
+}
 .navbar ul li:hover .dropdown ul li {
   text-align: center;
   width: 150px;
- } 
-
-.banner1{
-  margin: 10px ;
-  width: 100%;
-  
 }
-.result-text{
+
+.banner1 {
+  margin: 10px;
+  width: 100%;
+}
+.result-text {
   display: flex;
 }
-.result{
-width: 50%;
-background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
-color: white;
-padding:10px;
-font-size: 50px;
-text-align: center;
+.result {
+  width: 50%;
+  background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+  color: white;
+  padding: 10px;
+  font-size: 50px;
+  text-align: center;
 }
-.result2{
-width: 50%;
-background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
-color: white;
-padding:10px;
-font-size: 50px;
-text-align: center;
+.result2 {
+  width: 50%;
+  background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+  color: white;
+  padding: 10px;
+  font-size: 50px;
+  text-align: center;
 }
-.admissionopen{
+.admissionopen {
   background-color: #008552;
   margin-top: 10px;
   padding: 10px;
@@ -101,37 +96,79 @@ text-align: center;
   font-size: 20px;
   color: white;
 }
-.history{
+.history {
   display: flex;
   align-items: flex-start;
   align-items: center;
   justify-content: center;
 }
-.history-content{
+.history-content {
   display: flex;
   flex-direction: column;
+  margin-left: 10px;
 }
-.history img{
+.history img {
   width: 300px;
-  display: flex; 
+  display: flex;
 }
-.para1{
+.para1 {
   color: green;
   font-weight: bold;
   font-size: 30px;
   width: 100%;
   margin-top: 10px;
 }
-.para2,.para3{
+.para2,
+.para3 {
   color: black;
   font-size: 20px;
   text-align: start;
-  margin-top: 10px;
-
+  margin: 10px 0px 10px 0px;
+  text-align: justify;
+  width: 90%;
 }
-.para3 a{
+.para3 a {
   text-decoration: none;
   font-weight: bold;
   color: black;
-
+}
+.sir img {
+  width: 70%;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.corresmsg {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  top: 10px;
+  background-color: #008552;
+  padding: 10px;
+}
+.corres-content {
+  align-items: flex-start;
+  margin-top: 10px;
+}
+.msg1{
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+}
+.msg2 , .msg3{
+  color: white;
+  font-size: 15px;
+  margin-top: 10px;
+  width: 700px;
+  text-align: justify;
+}
+.msg3 b{
+  color: black;
+}
+.sir{
+  text-align: center;
+}
+.corres-name{
+  font-weight: bold;
+  font-size:30px;
+  margin-bottom: 10px;
 }
