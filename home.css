@@ -73,3 +73,22 @@ body{
   margin: 10px ;
   
 }
+.result-text{
+  display: flex;
+}
+.result{
+width: 50%;
+background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+color: white;
+padding:10px;
+font-size: 50px;
+text-align: center;
+}
+.result2{
+width: 50%;
+background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+color: white;
+padding:10px;
+font-size: 50px;
+text-align: center;
+}
