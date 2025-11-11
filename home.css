@@ -24,6 +24,7 @@ body{
 .navbar {
   background-color: green;
   text-align: center;
+  width: 100%;
 }
 .navbar ul {
   display: flex;
@@ -44,7 +45,9 @@ body{
   
 }
 .navbar ul li:hover {
-  background-color: rgb(4, 70, 4);
+   background-color: rgb(4, 70, 4); 
+  /* text-decoration: underline;
+  color: white; */
 
 }
 .dropdown {
@@ -65,3 +68,8 @@ body{
   text-align: center;
   width: 150px;
  } 
+
+.banner1{
+  margin: 10px ;
+  
+}
