@@ -8,7 +8,18 @@ body{
   font-weight: 400;
   font-style: normal;
 }
-
+.heading{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo{
+  width: 150px;
+  }
+  .logo-name{
+   width: 500px;
+    }
 
 .navbar {
   background-color: green;
@@ -54,63 +65,3 @@ body{
   text-align: center;
   width: 150px;
  } 
-  /* .navbar {
-    background-color: rgb(3, 110, 3);
-    color: white;
-    text-align: center;
-}
-
-.navbar  ul {
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    align-items: center;
-}
-
-.navbar  ul li {
-    padding: auto;
-    width: 120px;
-    margin: 15px;
-    padding: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-}
-
-.navbar  ul li a {
-    text-decoration: none;
-    color: white;
-}
-
-.navbar  ul li:hover {
-    background-color: darkgreen;
-    border-radius: 3;
-
-}
-
-.dropdown {
-    display: none;
-
-
-}
-
-.navbar  ul li:hover .dropdown {
-    display: block;
-    position: absolute;
-    background-color: rgb(3, 110, 3);
-    margin-top: 15px;
-    margin-left: -15px;
-
-}
-
-.navbar ul li:hover .dropdown ul {
-    display: block;
-    margin: 5px;
-
-
-}
-
-.navbar ul li:hover .dropdown ul li {
-    text-align: left;
-    width: 150px;
-
-} */
