@@ -2,6 +2,14 @@
   padding: 0;
   margin: 0;
 }
+body{
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 .navbar {
   background-color: green;
   text-align: center;
@@ -15,9 +23,6 @@
 .navbar ul li { 
   padding: 10px 5px ;
   margin: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 15px;
-  font-weight: bold;
   
 }
 .navbar ul li a {
